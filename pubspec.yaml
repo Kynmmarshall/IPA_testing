@@ -1,0 +1,65 @@
+name: game
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.32.0
+  flame_tiled: ^3.0.7
+  flame_test: ^1.12.0 
+  audioplayers: ^6.5.1 
+  shared_preferences: ^2.2.2
+  flame_audio: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mockito: ^5.4.0
+  build_runner: ^2.4.0
+  coverage: ^1.15.0
+
+flutter_launcher_icons:
+  image_path: "assets/icon/icon.png"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+    
+  assets:
+    - assets/tiles/Level-01.tmx
+    - assets/tiles/Level-02.tmx
+    - assets/tiles/Menu.tmx 
+    - assets/tiles/pixel adventure.tsx
+    - assets/tiles/
+    - assets/images/
+    - assets/audio/
+    - assets/icon/icon.png
+    - assets/images/Background/
+    - assets/images/Terrain/
+    - assets/images/Terrain/Touchables/
+    - assets/images/Items/Fruits/
+    - assets/images/Traps/Saw/
+    - assets/images/Joystick components/
+    - assets/images/Main Characters/Ninja Frog/
+    - assets/images/Main Characters/Virtual Guy/
+    - assets/images/Main Characters/Mask Dude/
+    - assets/images/Main Characters/Pink Man/
+    - assets/images/Main Characters/
+    - assets/images/Enemies/Chicken/
+    - assets/images/Enemies/Angry Pig/
+    - assets/images/Enemies/Bunny/
+    - assets/images/Enemies/Mushroom/
+    - assets/images/Enemies/Radish/
+    - assets/images/Enemies/Rino/
+    - assets/images/Terrain/Terrain (16x16).png
+    - assets/images/Items/Checkpoints/Checkpoint/
+    - assets/images/Items/Heart/
+

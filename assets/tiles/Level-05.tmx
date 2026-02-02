@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="221">
+ <tileset firstgid="1" source="pixel adventure.tsx"/>
+ <tileset firstgid="243" source="levelNumbers.tsx"/>
+ <tileset firstgid="283" source="pixel adventure.tsx"/>
+ <objectgroup id="2" name="SpawnPoints">
+  <object id="2" name="Player" type="Player" x="79" y="99" width="32" height="34.92"/>
+  <object id="174" type="Fruits" x="48" y="192" width="32" height="32"/>
+  <object id="175" type="Fruits" x="48" y="240" width="32" height="32"/>
+  <object id="176" type="Fruits" x="48" y="288" width="32" height="32"/>
+  <object id="154" type="Fruits" x="288" y="144" width="32" height="32"/>
+  <object id="167" type="Fruits" x="304" y="288" width="32" height="32"/>
+  <object id="196" type="Fruits" x="320" y="256" width="32" height="32"/>
+  <object id="197" type="Fruits" x="352" y="224" width="32" height="32"/>
+  <object id="198" type="Fruits" x="384" y="208" width="32" height="32"/>
+  <object id="199" type="Fruits" x="416" y="208" width="32" height="32"/>
+  <object id="200" type="Fruits" x="432" y="240" width="32" height="32"/>
+  <object id="201" type="Fruits" x="448" y="256" width="32" height="32"/>
+  <object id="168" type="Fruits" x="288" y="80" width="32" height="32"/>
+  <object id="208" type="Fruits" x="288" y="112" width="32" height="32"/>
+  <object id="169" type="Fruits" x="256" y="112" width="32" height="32"/>
+  <object id="170" type="Fruits" x="320" y="112" width="32" height="32"/>
+  <object id="171" type="Fruits" x="352" y="112" width="32" height="32"/>
+  <object id="210" type="Fruits" x="512" y="48" width="32" height="32"/>
+  <object id="209" type="Fruits" x="544" y="48" width="32" height="32"/>
+  <object id="172" type="Fruits" x="224" y="112" width="32" height="32"/>
+  <object id="76" name="Radish" type="Enemies" x="512" y="120" width="30" height="38">
+   <properties>
+    <property name="offsetneg" type="float" value="5"/>
+    <property name="offsetpos" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="77" type="Checkpoint" x="512" y="64" width="64" height="96"/>
+  <object id="81" type="fruitCount" x="117" y="0" width="144" height="48"/>
+  <object id="91" type="Hearts" x="357" y="0" width="144" height="48"/>
+  <object id="86" name="Home" type="Touchable" x="0" y="0" width="48" height="48"/>
+  <object id="88" name="Exit" type="Touchable" x="576" y="0" width="48" height="48"/>
+  <object id="212" name="saw" type="Saw" x="128" y="49" width="32" height="32">
+   <properties>
+    <property name="isvertical" type="bool" value="true"/>
+    <property name="offsetneg" type="float" value="0"/>
+    <property name="offsetpos" type="float" value="4"/>
+   </properties>
+  </object>
+  <object id="216" name="saw" type="Saw" x="192" y="48" width="32" height="32">
+   <properties>
+    <property name="isvertical" type="bool" value="true"/>
+    <property name="offsetneg" type="float" value="0"/>
+    <property name="offsetpos" type="float" value="11"/>
+   </properties>
+  </object>
+  <object id="218" name="saw" type="Saw" x="352" y="176" width="32" height="32">
+   <properties>
+    <property name="isvertical" type="bool" value="true"/>
+    <property name="offsetneg" type="float" value="0"/>
+    <property name="offsetpos" type="float" value="6"/>
+   </properties>
+  </object>
+  <object id="219" name="saw" type="Saw" x="224" y="304" width="32" height="32">
+   <properties>
+    <property name="isvertical" type="bool" value="false"/>
+    <property name="offsetneg" type="float" value="0"/>
+    <property name="offsetpos" type="float" value="12"/>
+   </properties>
+  </object>
+  <object id="213" name="saw" type="Saw" x="80" y="192" width="32" height="32">
+   <properties>
+    <property name="isvertical" type="bool" value="true"/>
+    <property name="offsetneg" type="float" value="0"/>
+    <property name="offsetpos" type="float" value="6"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Collisions">
+  <object id="12" x="336" y="176" width="16" height="48"/>
+  <object id="189" x="256" y="176" width="16" height="48"/>
+  <object id="190" x="256" y="176" width="96" height="16"/>
+  <object id="192" x="32" y="144" width="144" height="16"/>
+  <object id="193" x="32" y="176" width="144" height="16"/>
+  <object id="191" x="256" y="208" width="96" height="16"/>
+  <object id="69" x="32" y="32" width="16" height="320"/>
+  <object id="73" x="32" y="32" width="560" height="16"/>
+  <object id="97" x="48" y="320" width="416" height="16"/>
+  <object id="94" x="448" y="288" width="16" height="64"/>
+  <object id="178" x="448" y="160" width="16" height="32"/>
+  <object id="180" x="464" y="160" width="128" height="16"/>
+  <object id="181" x="576" y="32" width="16" height="144"/>
+  <object id="182" x="512" y="176" width="16" height="112"/>
+  <object id="183" x="448" y="176" width="80" height="16"/>
+  <object id="184" x="160" y="144" width="16" height="48"/>
+  <object id="187" x="480" y="272" width="16" height="32"/>
+  <object id="188" x="480" y="272" width="48" height="16"/>
+  <object id="202" x="160" y="256" width="64" height="16"/>
+  <object id="207" x="208" y="256" width="16" height="80"/>
+  <object id="203" x="160" y="256" width="16" height="48"/>
+  <object id="204" x="128" y="288" width="48" height="16"/>
+  <object id="205" x="128" y="288" width="16" height="48"/>
+  <object id="185" x="448" y="288" width="48" height="16"/>
+  <object id="186" x="448" y="288" width="16" height="48"/>
+  <object id="179" x="464" y="160" height="16"/>
+  <object id="75" x="32" y="336" width="432" height="16"/>
+  <object id="148" type="Platform" x="384" y="240" width="48" height="16"/>
+  <object id="194" type="Platform" x="384" y="176" width="48" height="16"/>
+  <object id="195" type="Platform" x="112" y="256" width="48" height="16"/>
+ </objectgroup>
+ <layer id="1" name="Background" width="40" height="23">
+  <properties>
+   <property name="BackgroundColor" value="Blue"/>
+  </properties>
+  <data encoding="csv">
+112,112,112,112,251,252,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,
+112,112,112,112,271,272,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,
+112,112,4,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,287,112,112,112,
+112,112,25,332,332,332,49,49,49,49,49,49,49,49,49,49,49,332,354,332,49,49,49,49,49,49,49,49,49,49,49,49,49,49,332,332,305,112,112,112,
+112,112,25,354,354,354,49,49,49,56,56,57,49,49,49,49,49,332,332,332,332,49,49,49,49,49,49,49,49,49,49,49,49,49,354,354,305,112,112,112,
+112,112,25,376,376,376,49,49,49,78,56,57,49,49,49,49,49,354,354,354,332,332,332,332,332,49,49,49,56,56,56,56,56,57,376,376,305,112,112,112,
+112,112,25,398,398,398,49,49,56,78,56,57,49,49,49,49,49,376,376,376,354,354,354,354,332,332,49,56,57,78,78,78,56,56,57,398,305,112,112,112,
+112,112,25,56,57,56,56,57,78,78,56,57,332,332,56,57,332,332,332,332,332,332,332,332,332,332,49,78,79,57,57,57,78,78,79,49,305,112,112,112,
+112,112,25,78,79,56,78,56,57,79,56,57,354,354,78,79,57,57,57,57,57,57,57,354,56,56,56,78,79,79,79,79,79,79,56,57,305,112,112,112,
+112,112,26,2,2,2,2,2,2,2,123,79,376,332,78,79,79,79,79,79,79,79,79,57,57,57,57,57,57,57,57,70,70,70,70,71,23,112,112,112,
+112,112,24,24,24,24,24,24,24,24,25,332,56,56,56,56,56,78,78,78,78,78,78,79,79,79,79,79,123,2,2,2,2,2,2,2,27,24,112,112,
+112,112,4,46,46,46,46,46,46,46,123,56,78,78,78,78,1,2,2,2,2,3,398,49,62,63,64,398,123,46,46,46,123,24,24,24,24,112,112,112,
+112,112,25,56,57,79,78,79,56,57,78,78,79,387,398,398,23,24,24,24,24,25,57,57,57,57,57,57,57,57,71,71,23,24,24,24,24,112,112,112,
+112,112,25,56,57,79,78,79,56,56,57,398,387,387,387,0,45,46,46,46,46,47,79,79,79,79,79,79,79,79,57,57,23,24,24,24,24,24,24,112,
+112,112,25,56,57,79,78,79,78,56,57,49,409,56,57,57,0,0,0,0,49,49,49,49,49,49,49,49,49,78,79,79,23,24,24,24,24,24,112,112,
+112,112,25,56,57,79,78,79,57,56,56,57,57,57,57,79,49,49,49,49,49,49,49,49,62,63,64,49,49,49,398,376,23,24,24,24,24,112,112,112,
+112,112,25,56,56,56,78,62,63,64,95,96,96,97,79,49,49,49,49,49,49,49,49,49,49,49,332,332,332,332,49,71,23,24,24,24,24,112,112,112,
+112,112,25,56,78,56,56,78,79,57,117,118,118,119,49,49,49,49,49,49,49,49,49,49,49,49,354,354,49,49,123,2,123,24,24,24,24,112,112,112,
+112,112,25,78,78,78,78,78,95,96,97,118,118,119,49,0,0,0,0,0,0,0,0,0,49,49,376,376,123,2,24,24,24,24,24,24,24,112,112,112,
+112,112,25,332,354,332,78,79,117,118,119,118,118,119,49,49,0,0,0,0,0,0,0,0,49,72,398,332,23,24,24,24,24,24,24,24,24,112,112,112,
+112,112,25,378,378,378,378,378,378,378,118,118,118,118,378,378,378,378,378,378,378,378,378,378,378,378,378,378,24,24,24,24,24,24,24,24,24,112,112,112,
+112,112,26,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,24,24,24,24,24,24,24,24,24,112,112,112,
+112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112,112
+</data>
+ </layer>
+</map>
